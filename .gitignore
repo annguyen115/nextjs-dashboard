@@ -35,3 +35,6 @@ yarn-error.log*
 *.tsbuildinfo
 next-env.d.ts
 !/.idea/
+/.idea/dataSources.xml
+/.idea/git_toolbox_prj.xml
+/.idea/vcs.xml
