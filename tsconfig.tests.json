@@ -1,0 +1,17 @@
+{
+  "extends": "./tsconfig.json",
+  "compilerOptions": {
+    "module": "CommonJS",
+    "moduleResolution": "node",
+    "outDir": "dist-test",
+    "rootDir": ".",
+    "noEmit": false,
+    "target": "ES2017",
+    "allowJs": true,
+    "esModuleInterop": true
+  },
+  "include": [
+    "app/lib/utils.ts",
+    "tests/**/*"
+  ]
+}

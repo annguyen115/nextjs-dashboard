@@ -4,7 +4,9 @@
     "build": "next build",
     "dev": "next dev --turbopack",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "test:compile": "tsc -p tsconfig.tests.json",
+    "test": "npm run test:compile && node --test ./dist-test/tests/utils.test.js"
   },
   "dependencies": {
     "@heroicons/react": "^2.2.0",
