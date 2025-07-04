@@ -12,7 +12,7 @@ import { useSearchParams } from 'next/navigation';
 
 
 import { Button } from './button';
-import { ExclamationCircleIcon } from '@heroicons/react/16/solid';
+import { ExclamationCircleIcon } from '@heroicons/react/20/solid';
 
 export default function LoginForm() {
   const searchParams = useSearchParams();
